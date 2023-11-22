@@ -1,0 +1,365 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: inline-flex;
+    padding: 72px 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1320px;
+}
+
+.heading h1 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.btn {
+    display: flex;
+    padding: 6px 0px;
+    align-items: center;
+    gap: 8px;
+    background: #FFF;
+    border: none;
+}
+
+.btn span {
+    color: #2DA5F3;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; 
+}
+
+.product {
+    width: 1320px;
+    height: 592px;
+}
+
+.product-component-ps5  {
+    border: 1px solid #e4e7e9;
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+    height: 592px;
+    flex-shrink: 0;
+}
+
+.ps5 {
+    padding: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-badge {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 16px;
+}
+
+.off {
+    background-color:#EFD33D;
+    width: 73px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px; 
+}
+
+.off-text {
+    color: #191C1F;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.hot {
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    background-color: #ee5858;
+}
+
+.hot-text {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+.header-rating-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+.beside-rating {
+    color: #77878F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.header-rating {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.content {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0 24px;
+    height: 182px;
+}
+.content .old {
+    color: #ADB7BC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    text-decoration: line-through;
+}
+.content .new {
+    color: #2DA5F3;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+}
+.product-price {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.content .text {
+    color: #5F6C72;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.product-button {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 24px;
+    width: 173px;
+    height: 48px;
+    margin-top: 24px;
+}
+
+.button-container button {
+    background-color: #fa8232;
+    border-radius: 2px;
+    display: flex;
+    padding: 0px 24px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    width: 173px;
+    height: 48px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.heart {
+    display: flex;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #ffe7d6;
+}
+
+.eye {
+    display: flex;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #ffe7d6;
+}
+
+.drone-badge {
+    padding: 12px;
+}
+
+.drone-badge span {
+    position: absolute;
+    display: inline-flex;
+    padding: 5px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 2px;
+    background-color: #929FA5;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;  
+}
+
+.product-components {
+    display: flex;
+}
+
+.product-component-with-badge {
+    display: flex;
+    flex-direction: column;
+    width: 248px;
+    height: 296px;
+    border: 1px solid #E4E7E9;
+    background-color: #FFF;
+    flex-shrink: 0;
+}
+
+.eight-component {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-content {
+    display: inline-flex;   
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 0 16px;
+}
+
+.drone-text {
+    color:#191C1F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.price {
+    color: #2DA5F3;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; 
+}
+
+.mobile-text {
+    color: #191C1F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.product-component-without-badge {
+    display: flex;
+    width: 248px;
+    height: 296px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0;
+    border: 1px solid #E4E7E9;
+}
+
+.text {
+    color: #191C1F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.controller-badge {
+    padding: 12px;
+}
+.controller-badge span {
+    position: absolute;
+    display: inline-flex;
+    padding: 5px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 2px;
+    background:#EFD33D;
+    color: #191C1F;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.old-price {
+    color: #929FA5;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: line-through;
+}
+
+.monitor-badge {
+    padding: 12px;
+}
+.monitor-badge span {
+    position: absolute;
+    display: inline-flex;
+    padding: 5px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 2px;
+    background-color: #EE5858;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.speaker-badge {
+    padding: 12px;
+}
+.speaker-badge span {
+    position: absolute;
+    display: inline-flex;
+    padding: 5px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 2px;
+    background-color: #EFD33D;
+    color: #191C1F;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
